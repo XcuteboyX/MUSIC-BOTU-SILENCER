@@ -47,5 +47,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="😎 ᴀɴᴜᴊ 😎", user_id=OWNER
             )
         ],
+        [
+            InlinekeyboardButton(
+                text="💫 sᴏᴜʀᴄᴇ 💫", repo=config.GITHUB_REPO
      ]
     return buttons
