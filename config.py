@@ -24,7 +24,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/XcuteboyX/ABHI_MUSIC_BOOOOT")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-GITHUB_REPO = getenv(" GITHUB_REPO", "https://te.legra.ph/file/be1d79f0f8d48c7e65c43.mp4")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://te.legra.ph/file/be1d79f0f8d48c7e65c43.mp4")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/the_update_silencer")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/x_team_immortals_x")
