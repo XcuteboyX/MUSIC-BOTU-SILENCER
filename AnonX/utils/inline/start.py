@@ -43,13 +43,17 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="✦ sᴜᴩᴩᴏʀᴛ ✦", url=config.SUPPORT_GROUP
             ),
+        ],
+     ]
+    return buttons
+        [
             InlineKeyboardButton(
                 text="😎 ᴀɴᴜᴊ 😎", user_id=OWNER
             )
         ],
         [
             InlinekeyboardButton(
-                text="💫 sᴏᴜʀᴄᴇ 💫", url=f"https://te.legra.ph/file/be1d79f0f8d48c7e65c43.mp4",
+                text="💫 sᴏᴜʀᴄᴇ 💫", url=config.GITHUB_REPO
             ),
         ],
      ]
